@@ -1,7 +1,7 @@
 imodel
 ======
 
-imodel是c语言写的一个php的ORM框架.
+imodel是用c语言写的一个php的ORM框架.
 ```php
 $user = new user_model();
 $row = $user->fetch(array('userid=?'=>1));
