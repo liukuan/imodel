@@ -5,8 +5,8 @@ imodel是c语言写的一个php的ORM框架.
 ```php
 $user = new user_model();
 $row = $user->fetch(array('userid=?'=>1));
-$row->getUsername();
-$row->getUserid();
+echo $row->getUsername();
+echo $row->getUserid();
 if($row->getStatus()==0){
      $row->setMoney(0);
      $row->setManage(0);
